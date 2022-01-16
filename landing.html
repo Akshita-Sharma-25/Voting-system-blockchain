@@ -37,7 +37,7 @@
         <button class="signUpBtn">AUTHENTICATION</button>
         
       </div>
-      <form class="signUp" name="authentication" action="" method="get">
+      <form class="signUp" name="authentication" action="voting.html" method="get">
         <div class="formGroup">
           <input type="text" id="userName" name="username"placeholder="Aadhar Card/Voter ID" autocomplete="off">
         </div>
@@ -49,7 +49,7 @@
           <span class="text">I agree with term & conditions</span>
         </div>
         <div class="formGroup">
-          <button onclick="authenticateValidate()" type="button" class="btn2">AUTHENTICATE</button>
+          <button onclick="authenticateValidate()" ondblclick="window.location='voting.html'" type="button" class="btn2">AUTHENTICATE</button>
         </div>
  
       </form>
